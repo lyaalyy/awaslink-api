@@ -26,18 +26,37 @@ Sistem ini tidak hanya mengandalkan *Machine Learning* biasa, tetapi menggunakan
 
 ---
 
+### Logika Ambang Batas (Threshold)
+API ini menggunakan aturan ambang batas biner berikut untuk menentukan status pesan berdasarkan persentase *confidence* (probabilitas bahaya):
+* **0.00 - 0.50 (0% - 50%):** `Aman` (Teks bersih dari ancaman)
+* **0.51 - 1.00 (51% - 100%):** `Phishing/Scam` (Teks terindikasi berbahaya)
+
+---
+
 ## Dokumentasi API
 
-### 1. Endpoint Utama: Deteksi Pesan
+### Endpoint Utama: Deteksi Pesan
 Endpoint ini menerima teks dari pengguna dan mengembalikan nilai probabilitas ancaman siber.
 
 - **URL:** `/predict`
 - **Method:** `POST`
 - **Headers:** `Content-Type: application/json`
 
-**Contoh Request (JSON):**
-```json
-{
-  "message": "Selamat nomor anda memenangkan hadiah 100jt, klik link ini bit.ly/penipuan"
-}
+---
+
+## Tim Pengembang
+Dikembangkan dengan penuh dedikasi oleh Tim Proyek AwasLink Capstone Project CC26-PSU004
+
+1. **Project Manager & AI Engineer:** Alya Yuliandhita P.M
+2. **Frontend Developer:** Gilang Dafa A.
+3. **Backend Developer:** Mahesa Rahmat R.
+4. **AI Engineer:** Anatasya Putri Amalia N.
+5. **Data Scientist:** Ashma Nisa S. A., Hana Talitha S.
+
+
+
+
+
+
+
 
