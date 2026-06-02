@@ -1,13 +1,18 @@
 # AwasLink AI Inference API 
+---
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688.svg?logo=fastapi)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15+-FF6F00.svg?logo=tensorflow)
 ![Status](https://img.shields.io/badge/Status-Active-success.svg)
 
+---
+
 **AwasLink AI** adalah "otak" kecerdasan buatan di balik ekosistem AwasLink. Server API ini dirancang khusus untuk mendeteksi ancaman *phishing*, *scam*, dan URL berbahaya pada pesan teks (SMS/WhatsApp) berbahasa Indonesia. 
 
 Sistem ini tidak hanya mengandalkan *Machine Learning* biasa, tetapi menggunakan pendekatan **Hybrid** yang menggabungkan ekstraksi fitur manual (pola teks) dengan *Deep Learning* tingkat lanjut untuk memberikan hasil prediksi yang akurat, cepat, dan andal.
+
+---
 
 ## Fitur Unggulan
 
@@ -34,7 +39,6 @@ API ini menggunakan aturan ambang batas biner berikut untuk menentukan status pe
 ---
 
 ## Dokumentasi API
-
 ### Endpoint Utama: Deteksi Pesan
 Endpoint ini menerima teks dari pengguna dan mengembalikan nilai probabilitas ancaman siber.
 
