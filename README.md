@@ -21,6 +21,8 @@ Sistem ini tidak hanya mengandalkan *Machine Learning* biasa, tetapi menggunakan
 - **RESTful API Modern:** Dibangun menggunakan FastAPI untuk menangani *request* secara asinkron dengan performa tinggi.
 - **Dokumentasi Otomatis:** Dilengkapi dengan Swagger UI untuk pengujian API secara langsung dari *browser*.
 
+---
+
 ## Teknologi yang Digunakan
 
 - **Framework:** FastAPI, Uvicorn
